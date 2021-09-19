@@ -1,0 +1,87 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-19T19:24:20.182Z",
+        "before": [
+          {
+            "result": {
+              "duration": 10960486000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.modulr.stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "verify valid credential login",
+        "description": "",
+        "id": "user-verification;verify-valid-credential-login",
+        "after": [
+          {
+            "result": {
+              "duration": 50000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.modulr.stepDefinitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1199680000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on Modulr homepage",
+            "match": {
+              "location": "com.modulr.stepDefinitions.login_stepDefs.i_am_on_Modulr_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10992281000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I use valid username and password",
+            "match": {
+              "location": "com.modulr.stepDefinitions.login_stepDefs.i_use_valid_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6294000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should be able to login succesfully",
+            "match": {
+              "location": "com.modulr.stepDefinitions.login_stepDefs.i_should_be_able_to_login_succesfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "User Verification",
+    "description": "",
+    "id": "user-verification",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/login.feature",
+    "tags": []
+  }
+]
